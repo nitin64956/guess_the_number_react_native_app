@@ -3,15 +3,13 @@
     "name": "guess_number_reactnative",
     "slug": "guess_number_reactnative",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/guess.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/success.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,8 +19,8 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package":"com.nitin.guess_number_reactnative" 
     }
   }
 }
